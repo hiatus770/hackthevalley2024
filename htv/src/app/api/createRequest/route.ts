@@ -11,7 +11,7 @@ export async function POST(request: Request) {
         const { user_id, specs, reason, budget } = await request.json();
         const query = `
         INSERT INTO REQUESTS (user_id, specs, reason, budget)
-        VALUES (${user_id}, ${specs}, ${reason}, $);
+        VALUES (${user_id}, ${specs}, ${reason}, ${budget});
         `
         const result = await db(query);
 

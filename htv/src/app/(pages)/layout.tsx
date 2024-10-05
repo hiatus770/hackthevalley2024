@@ -1,7 +1,7 @@
 
 import { ReactNode } from 'react';
 import { Inter } from "next/font/google";
-import styles from './style.module.css';
+import styles from './styles/style.module.css';
 const inter = Inter({ subsets: ["latin"] });
 import { redirect } from "next/navigation";
 import { usePathname } from 'next/navigation';

@@ -1,0 +1,26 @@
+
+.Titlebar {
+  display: flex;
+  justify-content: center; 
+  align-items: center; /* vert */
+  padding: 20px; 
+  background-color: #d4d4d4; 
+}
+
+.menuItems {
+  list-style-type: none; /* Remove default list styling */
+  margin: 0;
+  padding: 0;
+}
+
+.menuItems li {
+  margin: 0 15px; /* Space bw menu items */
+}
+
+.menuItems a {
+  color: #007bff; 
+}
+
+.menuItems a:hover {
+  /* something */
+}
